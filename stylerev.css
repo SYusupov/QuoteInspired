@@ -1,0 +1,93 @@
+@media only screen and (max-width:1100px){
+    /* For tablets: */
+    html{
+        font-size: 140%; // 12px
+    }
+    }
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  html{
+      font-size: 40%;
+  }
+}
+@media (min-width: 400) and (orientation: landscape) {
+    body, html{
+    margin:0;}
+}
+#html1{
+    font-size: 120%;
+    background-image: url("chalkboard.jpg");
+    background-repeat: no-repeat;
+    height: 120%;
+    background-size: cover;}
+#html2{
+    font-size: 120%;
+    background-image: url('sunrise.jpg');
+    background-repeat: no-repeat;
+    height: 120%;
+    background-size: cover;}
+.mainb{
+    padding: 0.5rem 0.5rem;
+    width: 12rem;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: red;
+    border-radius: 3rem;
+    margin-bottom: 0.7rem;
+    margin-top: 0.7rem;
+    position:relative;
+    left:45%; //Moves the element to the left by 50%
+    transform: translateX(-50%); //get half of the element's width and subtract that value with left's value
+}
+.mainb_small{
+    padding: 0.5rem 0.5rem;
+    width: 8rem;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    background-color: red;
+    border-radius: 3rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text_small{
+    font-size:3rem;
+    color: white;
+    font-weight: bold;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#text_area{
+    font-size:2rem;
+    color: white;
+    font-style: italic;
+    font-family: fantasy;
+    display: table;
+    margin: auto;
+}
+#quote{
+    font-style: italic;
+    font-family: fantasy;
+    color:white;
+    display: table;
+    text-align: center;
+    word-wrap: break-word;
+    margin:auto;
+    width:90%;
+    height:10rem;
+    font-size: 1.5rem;
+}
+#main_button{
+  position: fixed;
+  left: 50%;
+  margin-left: -12rem;
+}

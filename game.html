@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html id="html1">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="game.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <title>The Game - QuoteInspired</title>
+
+    <body onload="change('no_id')">
+        <div id='home_button'>
+            <button class="mainb" id="main1"type="button" onclick="location.href = 'http://web.sfc.keio.ac.jp/~t17600sy/FIT2/MiniProject/home.html'">Go back</button>
+            <button type="button" class="mainb" id="main2" onclick="location.href = 'http://web.sfc.keio.ac.jp/~t17600sy/FIT2/MiniProject/aboutus.html'">About Us</button></div>
+        <div id='quote'><p>text</p></div>
+            <table>
+                <tr id="infoSection">
+                    <td>
+                        <div id='img1'></div>
+                        <div id="button1"><button class="game_b" id="option1" type="button" onclick="change(this.id)"></div>
+                    </td>
+                    <td>
+                        <div id='img2'></div>
+                        <div id="button2"><button class="game_b" id="option2" type="button" onclick="change(this.id)"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id='img3'></div>
+                        <div id="button3"><button class="game_b" id="option3" type="button" onclick="change(this.id)"></div>
+                    </td>
+                    <td>
+                        <div id='img4'></div>
+                        <div id="button4"><button class="game_b" id="option4" type="button" onclick="change(this.id)"></div>
+                    </td>
+                </tr>
+            </table>
+        <div id="button">
+            <button class="mainb" type="button" id="skip" onclick="change(this.id)">Skip</button>
+        </div>
+    </body>
+</html>

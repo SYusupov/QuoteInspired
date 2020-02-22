@@ -1,0 +1,177 @@
+@media only screen and (max-width:1100px){
+    /* For tablets: */
+    html{
+        font-size: 140%; // 12px
+    }
+    }
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  html{
+      font-size: 40%;
+  }
+}
+@media (min-width: 400) and (orientation: landscape) {
+    body, html{
+    margin:0;}
+}
+#html1{
+    font-size: 100%;
+    background-image: url("chalkboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;}
+#html2{
+    font-size: 100%;
+    background-image: url('sunrise.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;}
+table{
+    margin:auto;
+}
+td{
+    margin:auto;
+}
+.imgGame{
+    position: relative;
+    float: left;
+    width:  15rem;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+}
+/*About Us*/
+.img2{
+    position: relative;
+    width:  15rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.p1{
+    float:right;
+    font-size:2rem;
+    color: white;
+    font-style: italic;
+    font-family: fantasy;
+}
+#main2{
+    float: right;
+}
+.text_area{
+    font-size:2rem;
+    color: white;
+    font-style: italic;
+    font-family: fantasy;
+}
+.text_area1{
+    font-size:3rem;
+    color: white;
+}
+.text_small{
+    font-size:1.5rem;
+    color: white;
+}
+#quote{
+    font-style: italic;
+    font-family: fantasy;
+    color:white;
+    display: table;
+    text-align: center;
+    word-wrap: break-word;
+    margin:auto;
+    width:90%;
+    height:10rem;
+    font-size: 1.5rem;
+}
+.info{
+    color:white;
+    display: table;
+    text-align: center;
+    word-wrap: break-word;
+    margin:auto;
+    width:20rem;
+    height:20rem;
+    font-size: 1rem;
+}
+div p{
+    display: table-cell;
+    vertical-align: middle;
+}
+.mainb{
+    padding: 0.1rem 0.1rem;
+    width: 11rem;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3rem;
+    background-color: red;
+    border-radius: 3rem;
+    margin-bottom: 0.7rem;
+    margin-top: 0.7rem;
+}
+/* .mainb3{
+    padding: 0.5rem 0.5rem;
+    width: 12rem;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: red;
+    border-radius: 3rem;
+    position: fixed;
+    bottom:0;
+}
+.mainb32{
+    padding: 0.5rem 0.5rem;
+    width: 12rem;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: red;
+    border-radius: 3rem;
+    position: fixed;
+    bottom:0;
+    float:right;
+} */
+.mainb_small{
+    padding: 0.5rem 0.5rem;
+    width: 8rem;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    background-color: red;
+    border-radius: 3rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+}
+.game_b:hover {
+    background-color: #891728;
+    color: black;
+}
+.game_b {
+    width:13rem;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 0.8rem;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin: 0 auto;
+    background-color: grey;
+    color: white;
+    border: 0.2rem solid #555555;
+}
+
+.game_b:hover {
+    background-color: #555555;
+    color: black;
+}
